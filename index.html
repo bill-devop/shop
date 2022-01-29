@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Shop</title>
+        <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1>Shop</h1>
+        </header>
+
+        <main>
+            <section class='container'>
+                <div class='shop-items'>
+                    <div class='shop-item'>
+                        <h1 class='shop-item-title'>Bicycle</h1>
+                        <img class='shop-item-image' src='bicycle.jfif' alt='bike'>
+                        <div class='shop-item-details'>
+                            <span class='shop-item-price'>$19.99</span>
+                            <button class='btn-primary shop-item-btn'>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class='shop-item'>
+                        <h1 class='shop-item-title'>Car</h1>
+                        <img class='shop-item-image' src='car.jfif' alt='car'>
+                        <div class='shop-item-details'>
+                            <span class='shop-item-price'>$39999</span>
+                            <button class='btn-primary shop-item-btn'>Add to Cart</button>
+                        </div> 
+                    </div>
+                    <div class='shop-item'>
+                        <h1 class='shop-item-title'>Jet</h1>
+                        <img class='shop-item-image' src='jet.jfif' alt='jet'>
+                        <div class='shop-item-details'>
+                            <span class='shop-item-price'>$549999</span>
+                            <button class='btn-primary shop-item-btn'>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class='shop-item'>
+                        <h1 class='shop-item-title'>Hover Craft</h1>
+                        <img class='shop-item-image' src='hovercraft.jfif' alt='hovercraft'>
+                        <div class='shop-item-details'>
+                            <span class='shop-item-price'>$159999</span>
+                            <button class='btn-primary shop-item-btn'>Add to Cart</button>
+                        </div> 
+                    </div>
+                    <div class='shop-item'>
+                        <h1 class='shop-item-title'>Space Ship</h1>
+                        <img class='shop-item-image' src='spaceship.jfif' alt='spaceship'>
+                        <div class='shop-item-details'>
+                            <span class='shop-item-price'>$199999999</span>
+                            <button class='btn-primary shop-item-btn'>Add to Cart</button>
+                        </div> 
+                    </div> 
+                </div>
+            </section>
+            
+            <section class='container'>
+                <h1 class='cart-title'>CART</h1>
+
+                <div class='cart-row'>
+                    <span class='cart-item cart-column'>ITEM</span>
+                    <span class='cart-price cart-column'>PRICE</span>
+                    <span class='cart-quantity cart-column'>QUANTITY</span>
+                </div>
+
+                <div class='cart-items'>
+
+                </div>
+
+                <div class='cart-total'>
+                    <strong class='cart-total-title'>Total</strong>
+                    <span class='cart-total-price'>$0</span>
+                </div>
+                <button class='btn btn-primary btn-purchase' type='button'>PURCHASE</button>
+
+            </section>
+        </main>
+
+        <script src='cart.js'></script>
+    </body>
+
+</html>
